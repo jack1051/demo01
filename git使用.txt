@@ -1,0 +1,16 @@
+配置：用户名-邮箱
+git config --global user.name "jack1051"
+git config --global user.email  "1051366400@qq.com"
+
+创建本地库
+cd   D:/work/demo
+git init 
+git add a.html
+git commit -m "练习git"
+
+创建ssh Key
+ssh-keygen -t rsa -C 1051366400@qq.com
+绑定远程库
+git remote add origin git@github.com:jack1051/demo01.git
+提交远程库
+git push -u origin master
