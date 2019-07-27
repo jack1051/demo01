@@ -14,5 +14,13 @@ ssh-keygen -t rsa -C 1051366400@qq.com
 git remote add origin git@github.com:jack1051/demo01.git
 提交远程库
 git push -u origin master
-从远程下载
-git checkout a.html
+从远程拉取
+git pull origin master
+
+克隆库
+git clone  git@github.com:jack1051/demo01.git
+
+
+git checkout a.html  
+
+
